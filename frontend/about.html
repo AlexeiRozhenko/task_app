@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .container {
+      margin-left: 30px;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/about.html">Tracker</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="register.html"
+                >Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="intro">
+        <h2>Project Introduction</h2>
+        <p>
+          This is a simple TaskTracker app which allows to create, edit, and
+          track tasks with deadlines. Each user has his/her own JWC token as
+          well as refresh token. Also, all passwords are hashed, so no worries
+          about your privacy.
+        </p>
+        <p>
+          The backend is built with <strong>FastAPI</strong>, a
+          high-performance framework for building APIs with Python. For data
+          storage, I use <strong>PostgreSQL</strong>. The frontend is built with <strong>HTML</strong> and
+          <strong>JavaScript</strong> for interactive features.
+        </p>
+        <p>
+          For database migrations, I use <strong>Alembic</strong>. As a package
+          manager, the project relies on <strong>uv</strong>. The application is
+          containerized and orchestrated with <strong>Docker Compose</strong>,
+          which simplifies setup and deployment. Additionally,
+          <strong>Nginx</strong> is used as a reverse proxy and to serve static
+          files efficiently.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
