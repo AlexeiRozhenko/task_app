@@ -1,6 +1,6 @@
-# Task tracker
+# Full-stack app
 
-This is a simple FastAPI application that allows you to manage your tasks. It features a backend API, a PostgreSQL database, and is served with Nginx in a Dockerized environment for easy deployment.
+This is a full-stack FastAPI application that allows you to manage your tasks. It features a backend API, a PostgreSQL database, and is served with Nginx in a Dockerized environment for easy deployment.
 
 Key Features:
 
